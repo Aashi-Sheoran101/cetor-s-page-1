@@ -177,20 +177,79 @@ h6 {
     width: 100%;
 }
 
-@media (max-width:1320px) {
-    .col-3_x1 {
-        width: 25%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-}
-
-@media (max-width:1024px) and (min-width:992px) {
-    .col-4_lg {
+@media(max-width:1200) {
+    .col_4_xl {
         width: 33.33%;
         padding-left: 12px;
         padding-right: 12px;
     }
+}
 
+@media(max-width:1135px) {
+    .col_4_lg {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media(max-width:1135px) {
+    .col_6_lg {
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 50%;
+    }
+}
+
+@media(max-width:850px) {
+    .col_6_md {
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 50%;
+    }
+}
+
+@media(max-width:768px) {
+    .col_12_md {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media(max-width:576px) {
+    .col_12_sm {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+.card:hover .absolute {
+    position: absolute;
+    right: 0;
+    transition: all 200ms linear;
+}
+
+.p-cursor {
+    cursor: pointer;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.img-card {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #FF5300;
+    position: absolute;
 }
